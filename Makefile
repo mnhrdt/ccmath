@@ -1,4 +1,4 @@
-CFLAGS  = -march=native -O3
+CFLAGS  = -march=native -O2 -ansi
 
 SRC     = $(shell ls */*.c | grep -v benchmk)
 OBJ     = $(SRC:%.c=%.o)

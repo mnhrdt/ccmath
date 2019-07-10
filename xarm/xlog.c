@@ -5,6 +5,7 @@
  *  public license (LGPL). ( See the lgpl.license file for details.)
  * ------------------------------------------------------------------------
  */
+#include <stdio.h>
 #include "xpre.h"
 struct xpr xlog(struct xpr z)
 { struct xpr f,h; int k,m;

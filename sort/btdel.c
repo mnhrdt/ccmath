@@ -5,6 +5,7 @@
  *  public license (LGPL). ( See the lgpl.license file for details.)
  * ------------------------------------------------------------------------
  */
+#include <stdlib.h>
 #include "tree.h"
 int btdel(char *kin,struct tnode *hd)
 { struct tnode *r,*s,**f; int ef;

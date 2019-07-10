@@ -5,6 +5,7 @@
  *  public license (LGPL). ( See the lgpl.license file for details.)
  * ------------------------------------------------------------------------
  */
+#include <stdlib.h>
 #define BAL 1
 #include "tree.h"
 int batdel(char *kin,struct tnode *hd)

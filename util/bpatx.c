@@ -5,6 +5,7 @@
  *  public license (LGPL). ( See the lgpl.license file for details.)
  * ------------------------------------------------------------------------
  */
+#include <stdio.h>
 #include "xpre.h"
 void bpatx(struct xpr x)
 { unsigned short t,u; int j,k,m;

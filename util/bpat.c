@@ -6,6 +6,8 @@
  * ------------------------------------------------------------------------
  */
 /*  Version for ieee format and DOS byte order */
+#include <stdio.h>
+
 void bitpc(unsigned char x)
 { unsigned char t; int j,m;
   m=sizeof(char)<<3; t=1<<(m-1);

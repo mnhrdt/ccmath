@@ -5,8 +5,9 @@
  *  public license (LGPL). ( See the lgpl.license file for details.)
  * ------------------------------------------------------------------------
  */
-#include "xpre.h"
 #include <math.h>
+#include <stdio.h>
+#include "xpre.h"
 struct xpr xsqrt(struct xpr z)
 { struct xpr s,h; short m,e; unsigned short *pc;
   if(neg(&z)){ printf("xsqrt range error\n"); return zero;}

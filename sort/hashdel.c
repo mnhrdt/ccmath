@@ -5,6 +5,7 @@
  *  public license (LGPL). ( See the lgpl.license file for details.)
  * ------------------------------------------------------------------------
  */
+#include <stdlib.h>
 #include "hash.h"
 int hashdel(char *kin,struct tabl **harr,int mh)
 { int hv,m; struct tabl *pe,*ps;
