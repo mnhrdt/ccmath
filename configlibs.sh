@@ -1,0 +1,7 @@
+#!/bin/sh
+
+PLIB="libccm"
+PVERSO=2
+PVER="$PVERSO.2.1"
+PLIBSO="$PLIB.so.$PVERSO"
+PLIBA="$PLIB.a"
